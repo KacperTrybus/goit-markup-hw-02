@@ -1,1 +1,59 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #757575;
+}
+a:hover {
+  color: #2196f3;
+}
 
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  font-family: 'Raleway';
+  padding: 24px 93px 26px 215px;
+  line-height: 30.52px;
+}
+.nav-box {
+  border: 1px;
+  display: inline-flex;
+}
+
+.nav-list {
+  display: inline-flex;
+}
+.nav-list-element {
+  display: inline-flex;
+  padding-top: 18px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 16.41px;
+}
+.nav-portfolio {
+  padding-left: 46px;
+  padding-right: 64px;
+}
+
+.header-contact-list {
+  display: inline-flex;
+  text-align: right;
+  padding-left: 550px;
+}
+.header-contact-list-element {
+  display: inline-flex;
+  padding-right: 50px;
+}
+.front-box {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  border: 1px;
+}
