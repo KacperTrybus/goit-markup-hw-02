@@ -6,6 +6,8 @@
   --logo-color: #000;
   --nr-color: #757575;
   --main-bg-color: #e5e5e5;
+  --team-bg-color: #f5f4fa;
+  --foot-font-color: rgb(255, 255, 255, 0.6);
 }
 
 ul {
@@ -37,6 +39,10 @@ address a:hover {
 address a:focus {
   color: var(--hover-color);
 }
+footer {
+  font-style: normal;
+  background-color: var(--bg-color);
+}
 
 .logo {
   font-weight: 700;
@@ -52,10 +58,6 @@ address a:focus {
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 2%;
-}
-
-.foot-font {
-  font-style: normal;
 }
 .nav-font {
   font-weight: 500;
@@ -88,5 +90,36 @@ address a:focus {
   cursor: pointer;
 }
 .main-section {
-  background-color: var(--main-bg-color);
+  background-color: white;
+}
+.team-section {
+  background-color: var(--team-bg-color);
+}
+
+.p-header {
+  color: var(--font-color);
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+.p-text {
+  color: var(--nr-color);
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+}
+.h2-font {
+  color: var(--font-color);
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 3%;
+}
+.footer-text {
+  color: var(--foot-font-color);
+  font-style: normal;
 }
