@@ -1,3 +1,7 @@
+body {
+  font-family: roboto;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -26,8 +30,9 @@ button {
 
 .nav-list {
   display: inline-flex;
+  list-style-type: none;
 }
-.nav-list-element {
+.nav-list li {
   display: inline-flex;
   padding-top: 18px;
   padding-bottom: 32px;
@@ -45,7 +50,8 @@ button {
   text-align: right;
   padding-left: 550px;
 }
-.header-contact-list-element {
+
+.header-contact-list li {
   display: inline-flex;
   padding-right: 50px;
 }
