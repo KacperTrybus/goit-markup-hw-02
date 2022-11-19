@@ -3,7 +3,6 @@
   --hover-color: #2196f3;
   --bg-color: #2f303a;
   --font-color: #212121;
-  --logo-color: #000;
   --nr-color: #757575;
   --main-bg-color: #e5e5e5;
   --team-bg-color: #f5f4fa;
@@ -25,18 +24,13 @@ a {
   color: #757575;
 }
 
+address a:hover,
 header li a:hover {
   color: var(--hover-color);
 }
 
+address a:focus,
 header a:focus {
-  color: var(--hover-color);
-}
-address a:hover {
-  color: var(--hover-color);
-}
-
-address a:focus {
   color: var(--hover-color);
 }
 footer {
@@ -50,27 +44,35 @@ footer {
   line-height: 30px;
   font-family: 'Raleway';
   line-height: 30.52px;
-  color: var(--logo-color);
+  color: #000;
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  font-family: 'Raleway';
+  line-height: 30.52px;
+  color: white;
 }
 .contact-font {
   color: var(--nr-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .nav-font {
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--font-color);
 }
 .center-element-font {
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -86,7 +88,7 @@ footer {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 .main-section {
@@ -98,28 +100,51 @@ footer {
 
 .p-header {
   color: var(--font-color);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16.41px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .p-text {
   color: var(--nr-color);
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
 }
 .h2-font {
   color: var(--font-color);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .footer-text {
   color: var(--foot-font-color);
+  font-style: normal;
+}
+.john-doe {
+  color: var(--font-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.john-caption {
+  color: var(--nr-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.street {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   font-style: normal;
 }
