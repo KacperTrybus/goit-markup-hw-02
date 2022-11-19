@@ -8,7 +8,6 @@
   --team-bg-color: #f5f4fa;
   --foot-font-color: rgb(255, 255, 255, 0.6);
 }
-
 ul {
   list-style-type: none;
 }
@@ -90,6 +89,7 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
 }
 .main-section {
   background-color: white;
@@ -125,7 +125,7 @@ footer {
   color: var(--foot-font-color);
   font-style: normal;
 }
-.john-doe {
+.fig-p {
   color: var(--font-color);
   font-weight: 500;
   font-size: 16px;
@@ -133,7 +133,7 @@ footer {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.john-caption {
+.fig-caption {
   color: var(--nr-color);
   font-weight: 400;
   font-size: 16px;
@@ -146,5 +146,32 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
   font-style: normal;
+}
+
+/* portfolio exclusive */
+
+.buttons:hover {
+  color: white;
+  background-color: var(--hover-color);
+}
+.buttons {
+  color: var(--font-color);
+  background-color: var(--team-bg-color);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.footer-text-p {
+  font-style: normal;
+  text-decoration: underline;
+  color: var(--foot-font-color);
 }
