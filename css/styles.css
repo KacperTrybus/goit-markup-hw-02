@@ -145,7 +145,6 @@ header a:focus {
 }
 .foot-text {
   color: var(--foot-font-color);
-  font-style: normal;
   text-decoration: none;
 }
 .figure-header {
