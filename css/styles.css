@@ -10,7 +10,6 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
   font-weight: 400;
@@ -169,6 +168,9 @@ header a:focus {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.foot-links {
   font-style: normal;
 }
 
@@ -195,5 +197,4 @@ header a:focus {
 .foot-text-portfolio {
   text-decoration: underline;
   color: var(--foot-font-color);
-  font-style: normal;
 }
