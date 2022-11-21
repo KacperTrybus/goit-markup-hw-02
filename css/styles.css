@@ -10,19 +10,10 @@
 }
 
 body {
-  font-family: roboto;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--font-color);
   font-weight: 400;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #757575;
 }
 
 address a:hover,
@@ -34,7 +25,7 @@ address a:focus,
 header a:focus {
   color: var(--hover-color);
 }
-.footer {
+.foot {
   background-color: var(--bg-color);
 }
 
@@ -44,13 +35,15 @@ header a:focus {
   font-family: 'Raleway';
   line-height: 1.17;
   color: #000;
+  text-decoration: none;
 }
-.logo-footer {
+.foot-logo {
   font-weight: 700;
   font-size: 26px;
   font-family: 'Raleway';
   line-height: 1.17;
   color: white;
+  text-decoration: none;
 }
 
 .logo-color {
@@ -63,12 +56,41 @@ header a:focus {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
+.contact {
+  text-decoration: none;
+  color: var(--nr-color);
+}
 .nav-font {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--font-color);
+  text-decoration: none;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-list-sec {
+  list-style-type: none;
+}
+.images-list {
+  list-style-type: none;
+}
+.images-team-list {
+  list-style-type: none;
+}
+.foot-links-list {
+  list-style-type: none;
+}
+.paragraph-list {
+  list-style-type: none;
+}
+.filter-list {
+  list-style-type: none;
+}
+.project-list {
+  list-style-type: none;
 }
 .center-element-font {
   font-weight: 900;
@@ -80,7 +102,7 @@ header a:focus {
   color: white;
   background-color: var(--bg-color);
 }
-.button {
+.main-button {
   color: white;
   background-color: var(--hover-color);
   border: none;
@@ -114,7 +136,7 @@ header a:focus {
   font-size: 14px;
   line-height: 1.71;
 }
-.h2-font {
+.header-font {
   color: var(--font-color);
   font-weight: 700;
   font-size: 36px;
@@ -122,9 +144,10 @@ header a:focus {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.footer-text {
+.foot-text {
   color: var(--foot-font-color);
   font-style: normal;
+  text-decoration: none;
 }
 .figure-header {
   color: var(--font-color);
@@ -169,7 +192,7 @@ header a:focus {
   cursor: pointer;
   border-radius: 4px;
 }
-.footer-text-p {
+.foot-text-portfolio {
   text-decoration: underline;
   color: var(--foot-font-color);
   font-style: normal;
