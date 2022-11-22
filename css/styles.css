@@ -12,18 +12,26 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
-  font-weight: 400;
 }
 
-address a:hover,
-header li a:hover {
+/* pseudoklasy */
+.nav-font:hover,
+.nav-font:focus {
+  color: var(--hover-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--hover-color);
+}
+.foot-text:hover,
+.foot-text:focus {
+  color: var(--hover-color);
+}
+.foot-text-portfolio:hover,
+.foot-text-portfolio:focus {
   color: var(--hover-color);
 }
 
-address a:focus,
-header a:focus {
-  color: var(--hover-color);
-}
 .foot {
   background-color: var(--bg-color);
 }
