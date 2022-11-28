@@ -15,6 +15,7 @@ body {
 }
 
 /* pseudoklasy */
+
 .nav-font:hover,
 .nav-font:focus {
   color: var(--hover-color);
@@ -31,6 +32,8 @@ body {
 .foot-text-portfolio:focus {
   color: var(--hover-color);
 }
+
+/* klasy */
 
 .foot {
   background-color: var(--bg-color);
